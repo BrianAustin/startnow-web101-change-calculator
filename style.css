@@ -42,6 +42,10 @@ body {
     grid-row-end: 3;
 }
 
+#amount-due, #amount-received {
+   border-radius: 5px; 
+}
+
 #calculate-change {
     grid-column-start: 1;
     grid-column-end: 5; 
@@ -52,7 +56,7 @@ body {
     border-radius: 25px;
     padding: 10px;
     border: 1px solid #EDEDF4;
-    background-color: #F79D5C;
+    background-color: rgb(34, 226, 28);
     font-weight: 600;
     margin: auto;
     font-size: 25px;
